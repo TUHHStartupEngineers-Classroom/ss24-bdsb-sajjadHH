@@ -22,10 +22,6 @@ website:
             file: content/01_journal/03_data_wrangling.qmd
           - text: "04 Data Visualization"
             file: content/01_journal/04_data_visualization.qmd
-      - text: "Class notes"
-        file: content/02_notes/05_class_notes.qmd
-      - text: "Links"
-        file: content/03_other/06_links.qmd
 
 format:
   html:

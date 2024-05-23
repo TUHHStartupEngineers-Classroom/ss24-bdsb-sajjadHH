@@ -1,21 +1,21 @@
 ---
-title: "My Lab Journal"
+title: "Foad's Lab Journal"
 subtitle: "Business Data Science Basics"
-author: "Sajjad Karami"
+author: "Foad Sanjaran"
 ---
 
-![](assets/logo/logo.png){width=80% fig-align="center"}
+![](assets/logo/TIE_logo.svg){width=80% fig-align="center"}
 
-This is a template example for lab journaling. Students in the data science courses at the Institute of Entrepreneurship will use this template to learn R for business analytics. Students can replace this text as they wish.
+Welcome to my digital space, where knowledge meets innovation and curiosity paves the way for groundbreaking discoveries. As a Master's student at TUHH (Technical University of Hamburg), I invite you to embark on a journey through the realms of cutting-edge research and transformative ideas.
 
-## How to use
+## Welcome to MyLabJournal! Explore my exciting academic journey by selecting from the following menus:
 
-1. Accept the assignment and get your own github repo.
+1. Tidyverse: Dive into the world of Tidyverse, where data analysis becomes a breeze.
 
-2. Blog/journal what you are doing in R, by editing the `.qmd` files. 
+2. Data Acquisition: Discover the art of gathering valuable datasets.
 
-3. See the links page for lots of helpful links on learning R.
+3. Data Wrangling: Master the art of transforming raw data into meaningful insights.
 
-4. Change everything to make it your own.
+4. Data Visualization: Unleash your creativity and bring data to life through captivating visualizations.
 
-5. Make sure to render you website everytime before you want to upload changes
+Click on your preferred menu and let's embark on an adventure of knowledge and discovery together!

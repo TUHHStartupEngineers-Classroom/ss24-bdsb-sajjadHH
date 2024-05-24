@@ -1,7 +1,7 @@
 ---
-title: "Foad's Lab Journal"
+title: "Sajjad's Lab Journal"
 subtitle: "Business Data Science Basics"
-author: "Foad Sanjaran"
+author: "Sajjad Karami"
 ---
 
 ![](assets/logo/TIE_logo.svg){width=80% fig-align="center"}

@@ -1,0 +1,21 @@
+---
+title: "Foad's Lab Journal"
+subtitle: "Business Data Science Basics"
+author: "Foad Sanjaran"
+---
+
+![](assets/logo/TIE_logo.svg){width=80% fig-align="center"}
+
+Welcome to my digital space, where knowledge meets innovation and curiosity paves the way for groundbreaking discoveries. As a Master's student at TUHH (Technical University of Hamburg), I invite you to embark on a journey through the realms of cutting-edge research and transformative ideas.
+
+## Welcome to MyLabJournal! Explore my exciting academic journey by selecting from the following menus:
+
+1. Tidyverse: Dive into the world of Tidyverse, where data analysis becomes a breeze.
+
+2. Data Acquisition: Discover the art of gathering valuable datasets.
+
+3. Data Wrangling: Master the art of transforming raw data into meaningful insights.
+
+4. Data Visualization: Unleash your creativity and bring data to life through captivating visualizations.
+
+Click on your preferred menu and let's embark on an adventure of knowledge and discovery together!

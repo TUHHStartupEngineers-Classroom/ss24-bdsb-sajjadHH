@@ -1,0 +1,64 @@
+---
+title: "Data Acquisition"
+author: "Foad Sanjaran"
+---
+
+**Getting data via an API & web scraping:**
+
+# Code:
+
+```{r}
+
+library(httr)
+library(jsonlite)
+library(rvest)
+library(tibble)
+library(dplyr)
+library(stringr)
+library(purrr)
+## First Challenge
+
+Sys.setenv(OPENWEATHERMAP_API_KEY = "7471c3bd36b596b3b489afb5e04d2a61")
+city <- 'London'
+endpoint <- paste0('http://api.openweathermap.org/data/2.5/weather?q=', city, '&appid=', Sys.getenv("OPENWEATHERMAP_API_KEY"))
+response <- GET(endpoint)
+
+
+if (status_code(response) == 200) {
+  raw_content <- content(response, as = "raw")
+  char_content <- rawToChar(raw_content)
+  data <- fromJSON(char_content)
+  temperature <- data$main$temp
+  humidity <- data$main$humidity
+  description <- data$weather[1]$description
+  description <- tolower(description)
+  
+
+  cat("City:", city, "\n")
+  cat("Temperature:", temperature, "K\n")
+  cat("Humidity:", humidity, "%\n")
+} else {
+  print("Request failed.")
+}
+
+## Second challenge
+
+
+url2 <- 'https://www.radon-bikes.de/e-bike/trekking/'
+html2 <- read_html(url2)
+
+### model
+
+trekking_ebike <- html2 %>% html_nodes(css = ".row > h2") %>%
+  html_text() %>% as_tibble()
+### price
+
+trekking_ebike <- trekking_ebike %>% mutate(new_col=(html2 %>% html_nodes(css =
+  ".currency_eur .m-serienpanel__price--active") %>% 
+  html_text() %>% str_remove_all(' €')))
+### column names
+
+trekking_ebike <- trekking_ebike %>% set_names(c('model', 'price'))
+view(trekking_ebike)
+
+```

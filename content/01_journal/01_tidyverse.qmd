@@ -1,6 +1,6 @@
 ---
 title: "Tidyverse"
-author: "Foad Sanjaran"
+author: "Sajjad Karami"
 ---
 
 **Sales analysis: This  analyzes the sales by location (state) with a bar plot. **

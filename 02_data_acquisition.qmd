@@ -1,6 +1,6 @@
 ---
 title: "Data Acquisition"
-author: "Foad Sanjaran"
+author: "Sajjad Karami"
 ---
 
 **Getting data via an API & web scraping:**

@@ -1,6 +1,6 @@
 ---
 title: "Data Wrangling"
-author: "Foad Sanjaran"
+author: "Sajjad Karami"
 ---
 
 

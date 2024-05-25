@@ -1,6 +1,6 @@
 ---
 title: "Data Visualization"
-author: "Foad Sanjaran"
+author: "Sajjad Karami"
 ---
 
 
